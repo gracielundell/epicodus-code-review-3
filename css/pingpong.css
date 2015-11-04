@@ -1,0 +1,22 @@
+
+header {
+  padding: 20px; 20px;
+  background: #FFCC99;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px 20px;
+}
+
+.my-info {
+  background: #99E699;
+  text-align: left;
+  padding: 0 20px 40px 5px;
+}
+
+.rules {
+  background: #E4E4E4;
+  text-align: center;
+  padding: 20px;
+}
