@@ -19,7 +19,7 @@ header {
 **************************/
 .my-info {
   text-align: left;
-  margin: 0;
+  margin-right: 10px;
 }
 
 
@@ -27,7 +27,7 @@ header {
 COLORS
 **************************/
 body {
-  background: #E4E4E4; /* grey */
+  background: #E4E4E4 !important; /* grey */
 }
 
 
