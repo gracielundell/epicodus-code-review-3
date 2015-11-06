@@ -2,8 +2,8 @@
 HEADING
 **************************/
 header {
-  padding: 40px; 20px;
-  background: #FFCC99; /* peach */
+  padding: 40px; 40px;
+  background: #FFE1C3; /* peach */
   text-align: center;
 }
 
@@ -11,16 +11,28 @@ header {
 /**************************
 'ABOUT' SIDEBAR SHAPING
 **************************/
+.about {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
 
+.my-info {
+  text-align: left;
+  padding-bottom: 200%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
+.row {
+  border-top: 10px;
+  padding-top: 10px;
+
+}
 
 /**************************
 'LET'S PLAY' SHAPING
 **************************/
-.my-info {
-  text-align: left;
-  margin-right: 10px;
-}
+
 
 
 /**************************
@@ -33,9 +45,9 @@ body {
 
 .rules {
   background: #E4E4E4; /* grey */
-  text-align: center;
+  text-align: left;
 }
 
 .my-info {
-  background: #99E699; /* green */
+  background: #60CA95; /* green */
 }
