@@ -6,6 +6,8 @@ var pingPong = function(countTo) {
 
     if (i % 3 === 0 && i % 5 ===0) {
       li.innerHTML = "pingpong";
+    } else if (i % 3 === 0) {
+      li.innerHTML = "ping";
     } else {
       li.innerHTML = i;
     }
