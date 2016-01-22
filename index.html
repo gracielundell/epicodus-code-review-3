@@ -5,7 +5,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/pingpong.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
-    <scrip src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -33,14 +33,17 @@
                <p>3. Numbers divisible by 3 and 5 become "pingpong"</p>
             <form id="pingPong">
               <div class="form-group">
-                 <label for="countTo"> Enter your number here:</label>
-                 <input id="countTo" type="text">
+                <label for="countTo"> Enter your number here:</label>
+                <input id="countTo" type="text">
+                  <button type="submit" class="btn btn-lg">Ping Pong!</button>
               </div>
             </form>
-            <button type="submit" class="btn btn-lg">Ping Pong!</button>
-        </div>
-          <div id="pingPongCode">
-            <ul class="result"></ul>
+            <div class="pingPongCode">
+              <ul id="pingPongCode">
+
+              </ul>
+            </div>
+
           </div>
         </div>
       </div>
@@ -51,38 +54,5 @@
 
 
 
-
-
-
-
-
-
-
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-md-4 about">
-        </div>
-        <div class="col-md-8">
-          <div class="rules">
-            <h2>Let's Play!</h2>
-              <p><span class="bold-rules">Rules:</span></p>
-              <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-               <p>1. Numbers divisible by 3 become "ping"</p>
-               <p>2. Numbers divisible by 5 become "pong"</p>
-               <p>3. Numbers divisible by 3 and 5 become "pingpong"</p>
-            <form id="pingPong">
-              <div class="form-group">
-                 <label for="countTo"> Enter your number here:</label>
-                 <input id="countTo" type="text">
-              </div>
-            </form>
-            <button type="submit" class="btn btn-lg">Ping Pong!</button>
-          </div>
-          <div id="pingPongCode">
-            <ul class="result"></ul>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </body>
 </html>
