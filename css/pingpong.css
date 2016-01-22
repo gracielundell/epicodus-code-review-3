@@ -1,17 +1,23 @@
-/**************************
-HEADING
-**************************/
+body {
+  background: #eee;
+}
+
+a {
+  font-size: 17px;
+}
+
+p {
+  font-size: 17px;
+}
+
+/* HEADING */
 .jumbotron {
   text-align: center;
   background-color: #ffe5b3;
 }
 
-
-/**************************
-'ABOUT' SIDEBAR SHAPING
-**************************/
+/*'ABOUT' SIDEBAR */
 .about {
-  margin-right: 20px;
   background-color: #66cc9b;
 }
 
@@ -22,34 +28,14 @@ HEADING
 }
 
 .white {
-  font-size: 17px;
   font-weight: bold;
   color: white;
 }
 
-a {
-  font-size: 17px;
+/*'LET'S PLAY' SHAPING */
+.bold-rules {
+  font-weight: bolder;
 }
-
-/**************************
-'LET'S PLAY' SHAPING
-**************************/
-
-
-
-/**************************
-COLORS
-**************************/
-body {
-  background: #E4E4E4 !important; /* grey */
-}
-
 
 .rules {
-  background: #E4E4E4; /* grey */
-  text-align: left;
-}
-
-.my-info {
-  background: #60CA95; /* green */
 }

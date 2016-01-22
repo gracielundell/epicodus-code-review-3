@@ -1,7 +1,7 @@
 var pingPong = function(countTo) {
   var array = []
   for (var i = 1; i <= countTo; i ++) {
-    if (i % 15 === 0) {
+    if (i % 3 === 0 && i % 5 ===0) {
       array.push("pingpong");
     } else if (i % 3 === 0) {
       array.push("ping");
@@ -9,13 +9,11 @@ var pingPong = function(countTo) {
       array.push("pong");
     } else {
       array.push(i);
-      console.log(array);
-
     }
   }
+  console.log(array);
   return array;
 };
-
 
 
 $(document).ready(function() {

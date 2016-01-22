@@ -2,8 +2,8 @@
 <html>
   <head>
     <title> Gracie Lundell | Level 2 Coding Challenge </title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/pingpong.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/pingpong.css" rel="stylesheet" type="text/css" media="all">
     <script src="js/jquery-1.12.0.js"></script>
     <scrip src="js/script.js"></script>
   </head>
@@ -15,21 +15,57 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-3 about">
-            <h2> About Ping Pong </h2>
-              <p><span class="bold">Created by:</span><br>
-                <p><span class="white">Gracie Lundell</span></p>
-              <p><span class="bold">Github username/URL:</span></p>
-                <a href="https://github.com/gracielundell">gracielundell</a>
-              <p><span class="bold">Level 2 Test for:</span><br>
-                <p><span class="white">CSS</span></p>
+        <div class="col-sm-4 about">
+          <h2> About Ping Pong </h2>
+            <p><span class="bold">Created by:</span><br>
+              <p><span class="white">Gracie Lundell</span></p>
+            <p><span class="bold">Github username/URL:</span></p>
+              <a href="https://github.com/gracielundell">gracielundell</a>
+            <p><span class="bold">Level 2 Test for:</span><br>
+              <p><span class="white">CSS</span></p>
+        </div>
+        <div class="col-sm-8 rules">
+            <h2>Let's Play!</h2>
+              <p><span class="bold-rules">Rules:</span></p>
+              <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+               <p>1. Numbers divisible by 3 become "ping"</p>
+               <p>2. Numbers divisible by 5 become "pong"</p>
+               <p>3. Numbers divisible by 3 and 5 become "pingpong"</p>
+            <form id="pingPong">
+              <div class="form-group">
+                 <label for="countTo"> Enter your number here:</label>
+                 <input id="countTo" type="text">
+              </div>
+            </form>
+            <button type="submit" class="btn btn-lg">Ping Pong!</button>
+        </div>
+          <div id="pingPongCode">
+            <ul class="result"></ul>
+          </div>
         </div>
       </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container">
       <div class="row">
-        <div class="col-sm-9 col-sm-push-4">
+        <div class="col-md-4 about">
+        </div>
+        <div class="col-md-8">
           <div class="rules">
             <h2>Let's Play!</h2>
-              <p>Rules:</p>
+              <p><span class="bold-rules">Rules:</span></p>
               <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
                <p>1. Numbers divisible by 3 become "ping"</p>
                <p>2. Numbers divisible by 5 become "pong"</p>
@@ -47,6 +83,6 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
