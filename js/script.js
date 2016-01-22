@@ -8,6 +8,8 @@ var pingPong = function(countTo) {
       li.innerHTML = "pingpong";
     } else if (i % 3 === 0) {
       li.innerHTML = "ping";
+    } else if (i % 5 === 0) {
+      li.innerHTML = "pong";
     } else {
       li.innerHTML = i;
     }
