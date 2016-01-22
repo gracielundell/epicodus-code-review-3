@@ -1,6 +1,10 @@
-
-
-
+var pingPong = function(countBy, countTo) {
+  var array = []
+  for (var i = 1; i <= countTo; i += countBy) {
+    array.push(i);
+  }
+  return array;
+};
 
 
 
