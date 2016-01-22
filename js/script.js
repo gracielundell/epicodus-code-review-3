@@ -1,9 +1,17 @@
-var pingPong = function(countBy, countTo) {
-  var array = []
-  for (var i = 1; i <= countTo; i += countBy) {
-    array.push(i);
+var pingPong = function(countTo) {
+  var ul = document.createElement("ul");
+
+  for (var i = 1; i <= countTo; i ++) {
+    var li = document.createElement("li");
+
+    if (i % 3 === 0 && i % 5 ===0) {
+      li.innerHTML = "pingpong";
+    } else {
+      li.innerHTML = i;
+    }
+    console.log(li.innerHTML);
   }
-  return array;
+
 };
 
 
