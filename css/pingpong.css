@@ -1,10 +1,9 @@
 /**************************
 HEADING
 **************************/
-header {
-  padding: 40px; 40px;
-  background: #FFE1C3; /* peach */
+.jumbotron {
   text-align: center;
+  background-color: #ffe5b3;
 }
 
 

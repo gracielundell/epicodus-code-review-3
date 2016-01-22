@@ -5,14 +5,18 @@ function reg() {
 
 function hit(evt) {
   evt.preventDefault();
+  var inputNumber = 10;
+  pingpong(inputNumber)
+}
 
+
+
+function pingpong(userNumber) {
   document.getElementById("pingpongcode").innerHTML = ""
 
   var ul = document.createElement("ul");
 
-  // var userNumber = (userinput) //from BS input box
-
-  for(var i = 1; i <= 20; i++) {
+  for(var i = 1; i <= userNumber; i++) {
     var li = document.createElement("li");
 
       if (i % 3 === 0 && i % 5 ===0) {
