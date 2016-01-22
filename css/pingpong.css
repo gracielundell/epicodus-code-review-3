@@ -1,8 +1,3 @@
-/*.pingPongCode {
-  display: none;
-}*/
-
-
 body {
   background: #eee;
 }
@@ -13,6 +8,10 @@ a {
 
 p {
   font-size: 17px;
+}
+
+ul {
+  font-size: 15px;
 }
 
 /* HEADING */
@@ -41,7 +40,4 @@ p {
 /*'LET'S PLAY' SHAPING */
 .bold-rules {
   font-weight: bolder;
-}
-
-.rules {
 }

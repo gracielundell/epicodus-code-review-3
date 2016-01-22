@@ -18,12 +18,13 @@ var pingPong = function(countTo) {
 
 $(document).ready(function() {
   $("form").submit(function(event) {
-    $("ul").empty();
+    $("li").remove();
     var countTo = parseInt($("input#countTo").val());
     var pingPongOutput = pingPong(countTo);
     pingPongOutput.forEach(function(i) {
-      $("#pingPongCode").append("<li>" + i + "</li>");
+      $("#pingPong").append("<li>" + i + "</li>");
     });
+    $(".pingPongCode").show();
 
     event.preventDefault();
   });
