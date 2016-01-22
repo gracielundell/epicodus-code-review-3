@@ -19,6 +19,7 @@ p {
 /*'ABOUT' SIDEBAR */
 .about {
   background-color: #66cc9b;
+  padding-bottom: 100%;
 }
 
 .bold {
