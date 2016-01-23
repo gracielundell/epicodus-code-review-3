@@ -11,7 +11,6 @@ var pingPong = function(countTo) {
       array.push(i);
     }
   }
-  console.log(array);
   return array;
 };
 
